@@ -6,21 +6,26 @@
 		<title>Etch-A-Sketch</title>
 	</head>
 	<body>
-        <div class="container">
-            <div class="row">
-            
-            </div>
-            <div id="grid" class="row grid">
-                <p>Hello, there</p>
-                <p>Hello,again</p>
-                <div>
-                    <p>Hello, there from the div</p>
-                    <p>Hello,again</p>
+        <h1>Etch-a-Sketch</h1>        
+        <div class="row">
+            <div class="frame">
+                <div class="grid">
+                </div>
+                <div class="options">
+                    <div class="buttons-left">
+                        <button id="reset" class="btn"></button>
+                        <p>Shake to clear?</p>
+                    </div>
+                    
+                    <div class="buttons-right">
+                        <p>Toggle mode</p>
+                        <div class="mode-container">
+                            <button id="mode" class="btn"></button>
+                            <p id="mode-label">Gray</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                
-            </div> 
         </div>
     </body>
     <script type="text/javascript" src="scripts/main.js"></script>
